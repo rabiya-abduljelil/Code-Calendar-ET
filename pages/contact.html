@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="../Images/favIcon.png">
+</head>
+<body>
+    <header>
+        <img src="../Images/codecalendar-et-icon.png" alt="Code-Calendar Logo" width="600" height="200">
+        <hr>
+        <nav>
+            <a href="../index.html">Home |</a>
+            <a href="events.html">Event |</a>
+            <a href="contact.html">Contact |</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>Know about a tech event or hackathon in Addis that isn't listed? Send it to us and we will add it.</p>
+        
+        <h2>Submit an Event</h2>
+        
+        <h2>Event Organizers: List Your Event</h2>
+
+        <form action="#" method="post">
+            <label for="org-name">Your Name</label>
+            <input type="text" id="org-name" name="org-name" required> <br> <br>
+
+            <label for="org-email">Email</label>
+            <input type="email" id="org-email" name="org-email" required> <br> <br>
+
+            <label for="org-phone">Phone Number</label>
+            <input type="tel" id="org-phone" name="org-phone"> <br> <br>
+
+            <label for="organization">Organization / Club</label>
+            <input type="text" id="organization" name="organization" required> <br> <br>
+
+            <label for="ev-name">Event Name</label>
+            <input type="text" id="ev-name" name="ev-name" required> <br> <br>
+
+            <label for="ev-type">Event Type</label>
+            <select id="ev-type" name="ev-type">
+                <option value="hackathon">Hackathon</option>
+                <option value="bootcamp">Bootcamp</option>
+                <option value="ctf">CTF</option>
+                <option value="internship">Internship</option>
+                <option value="meetup">Tech meetup</option>
+            </select> <br> <br>
+
+            <label for="ev-date">Event Date</label>
+            <input type="date" id="ev-date" name="ev-date" required> <br> <br>
+
+            <label for="ev-location">Location</label>
+            <input type="text" id="ev-location" name="ev-location" required> <br> <br>
+
+            <label for="ev-link">Event Website or Registration Link</label>
+            <input type="url" id="ev-link" name="ev-link"> <br> <br>
+
+            <label for="cost">Cost</label> <br>
+            <input type="radio" name="cost"> Free <br>
+            <input type="radio" name="cost"> Paid <br> <br>
+
+            <label for="audience">Who can join?</label> <br>
+            <input type="checkbox" name="audience"> Students <br>
+            <input type="checkbox" name="audience"> Beginners <br>
+            <input type="checkbox" name="audience"> Professionals <br> <br>
+
+            <label for="disc">Event Description</label> <br>
+            <textarea name="disc" required></textarea> <br> <br>
+
+            <input type="submit" value="Submit Event">
+            <input type="reset">
+        </form>
+    </main>
+
+    <br> <br>
+    <hr>
+    <footer>
+        <p>Code-Calender-ET &copy; 2026GC</p>
+    </footer>
+
+</body>
+</html>
