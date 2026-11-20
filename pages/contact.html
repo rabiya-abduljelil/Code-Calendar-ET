@@ -62,17 +62,22 @@
             <label for="ev-link">Event Website or Registration Link</label>
             <input type="url" id="ev-link" name="ev-link"> <br> <br>
 
-            <label for="cost">Cost</label> <br>
-            <input type="radio" name="cost"> Free <br>
-            <input type="radio" name="cost"> Paid <br> <br>
+            <label>Cost</label> <br>
+            <input type="radio" name="cost" id="cost-free" value="free" required>
+            <label for="cost-free">Free</label> <br>
+            <input type="radio" name="cost" id="cost-paid" value="paid">
+            <label for="cost-paid">Paid</label> <br> <br>
 
-            <label for="audience">Who can join?</label> <br>
-            <input type="checkbox" name="audience"> Students <br>
-            <input type="checkbox" name="audience"> Beginners <br>
-            <input type="checkbox" name="audience"> Professionals <br> <br>
+            <label>Who can join?</label> <br>
+            <input type="checkbox" name="audience" id="aud-students" value="students">
+            <label for="aud-students">Students</label> <br>
+            <input type="checkbox" name="audience" id="aud-beginners" value="beginners">
+            <label for="aud-beginners">Beginners</label> <br>
+            <input type="checkbox" name="audience" id="aud-pros" value="professionals">
+            <label for="aud-pros">Professionals</label> <br> <br>
 
             <label for="disc">Event Description</label> <br>
-            <textarea name="disc" required></textarea> <br> <br>
+            <textarea name="disc" id="disc" required></textarea> <br> <br>
 
             <input type="submit" value="Submit Event">
             <input type="reset">
